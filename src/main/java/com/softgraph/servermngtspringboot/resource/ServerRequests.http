@@ -1,0 +1,23 @@
+###
+GET http://localhost:10000/server/list
+
+<> 2024-02-15T125405.200.json
+
+###
+GET http://localhost:10000/server/get/1
+
+<> 2024-02-15T131233.200.json
+
+###
+GET http://localhost:10000/server/ping/192.168.1.160
+
+<> f.txt
+
+###
+GET http://localhost:10000/server/image/server1.png
+
+<> 2024-02-15T130025.200.png
+<> 2024-02-15T124445.500.json
+<> 2024-02-15T123559.500.json
+<> 2024-02-15T122846.500.json
+

@@ -1,1 +1,14 @@
+server:
+  port: 10000
 
+spring:
+  datasource:
+    password: root
+    url: jdbc:mysql://localhost:3306/server_db
+    username: ndach
+  jpa:
+    hibernate:
+      ddl-auto: create
+      dialect: org.hibernate.dialect.MySQL8Dialect
+      format_sql: true
+    show-sql: true
