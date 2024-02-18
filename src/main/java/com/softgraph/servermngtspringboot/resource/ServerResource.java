@@ -25,6 +25,7 @@ import static org.springframework.http.MediaType.IMAGE_PNG_VALUE;
 public class ServerResource {
     private final ServerServiceImpl serverService;
 
+    // Vidéo 12
     @GetMapping("/list")
     public ResponseEntity<Response> getServers() {
         return ResponseEntity.ok(
