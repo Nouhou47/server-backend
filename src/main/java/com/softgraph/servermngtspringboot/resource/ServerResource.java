@@ -25,9 +25,10 @@ import static org.springframework.http.MediaType.IMAGE_PNG_VALUE;
 public class ServerResource {
     private final ServerServiceImpl serverService;
 
-    // Vidéo 12
+    // Vidéo
     @GetMapping("/list")
     public ResponseEntity<Response> getServers() {
+        //TimeUnit.SECONDS.sleep(3);
         return ResponseEntity.ok(
                 Response.builder()
                         .timeStamp(now())
